@@ -1,0 +1,182 @@
+@font-face {
+  font-family: FloraniaTrial;
+  src: url(FloraniaTrial.otf);
+}
+@font-face {
+  font-family: Century;
+  src: url(DOMINIKTH.TTF);
+}
+@font-face {
+  font-family: Sherland;
+  src: url(Sherland.ttf);
+}
+
+
+  
+html{
+  max-width: 500px ;
+  min-width: 200px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+
+  background-color: #B48482 ;
+  justify-content: center;
+  max-width: 500px ;
+  min-width: 200px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+ 
+  padding: 0;
+}
+.conteudo-principal{
+  background-color: #FFF;
+  max-width: 500px ;
+  min-width: 200px;
+  margin: auto;
+  float: left;
+  padding: 50px;
+}
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: -40%;
+}
+.title-section1{
+  margin-top: 100px;
+  font-family: FloraniaTrial;
+ color:#B48482;
+ font-size: 30px;
+ text-align: center;
+}
+.subtitle-section1{
+  font-family: Century;
+    font-size: 18px;
+    color: #B48482;
+    text-align: center;
+  }
+  .btn-section1{
+    background-color: #B48482;
+    margin-left: 12%;
+
+    width: 200px;
+
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: Century;
+    font-weight: bold;
+  
+    color: #FFF;
+    max-width: 80%;
+    height: 20px;
+    font-family: Century;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+
+   
+}
+
+.btn-section1:hover{
+  color: rgba(236, 214, 196, 0.53); 
+  transition-duration: 0.5s;
+}
+
+
+.cabeçalho{
+  background-color: white;
+  display:flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: space-around;
+  border-bottom: solid;
+  border-color: #A8A6A2;
+  border-width: 8px;
+  padding: 0.5%;
+  max-width: 500px;
+
+  
+}
+.cabecalho-menu {
+  display: flex;
+  gap: 20px;
+  max-width: 500px ;
+  min-width: 200px;
+}
+
+.cab-menu-item {
+  font-family: Century;
+  color: #B48482;
+  font-weight: 400;
+  font-size: 10px;
+  font-weight: bold;
+  margin: auto;
+}
+.submarca{
+  width: 100%;
+}
+
+.main{
+  padding: 20px;
+  margin:auto;
+  max-width: 500px ;
+  min-width: 200px;
+}
+.conteudo-sec{
+  align-items: center;
+  max-width:400px ;
+  justify-content: center;
+  
+}
+
+.imgsec2{
+  min-width: 250px;
+  max-width: 300px;
+  margin-left: 10%;
+}
+
+@media screen and (min-width: 900px){
+  body{
+    justify-content: center;
+    margin-left: 85%;
+    min-width: 1200px;
+  }
+
+ 
+ .conteudo-principal-escrito{
+  margin-top: 0.2%;
+ }
+ .title-section1{
+  font-size: 50px;
+  padding: 12px;
+  margin-top: -15px;
+ }
+ .subtitle-section1{
+    font-size: 25px;
+ }
+
+ .imgsec2{
+  min-width: 500px;
+  margin-left: -2.5%;
+ }
+
+ .cab-menu-item{
+  font-size: 15px ;
+ }
+ .btn-section1{
+  margin-left: 25%;
+ }
+}

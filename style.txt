@@ -1,0 +1,151 @@
+@font-face {
+    font-family: FloraniaTrial;
+    src: url(FloraniaTrial.otf);
+}
+@font-face {
+    font-family: Century;
+    src: url(DOMINIKTH.TTF);
+}
+@font-face {
+    font-family: Sherland;
+    src: url(Sherland.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  .conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+  }
+  
+  body {
+    font-size: 100%;
+    background: #B48482;
+  }
+
+.cabeçalho{
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: solid;
+    border-color: #A8A6A2;
+    border-width: 8px;
+}
+
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+  }
+
+  .cab-menu-item {
+    font-family: Century;
+    color: #B48482;
+    font-weight: 400;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .cab-menu-item:hover{
+    color: rgba(236, 214, 196, 0.53); 
+    transition-duration: 0.5s;
+  }
+
+
+
+.title-section1{
+    margin-top: 100px;
+    font-family: FloraniaTrial;
+   color:#B48482;
+   font-size: 50px;
+   text-align: center;
+}
+
+
+.subtitle-section1{
+font-family: Century;
+  font-size: 24px;
+  color: #B48482;
+  text-align: center;
+}
+
+.conteudo-principal{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 80px;
+    gap: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px
+
+}
+.submarca{
+    width: 450px;
+    align-self: center;
+    margin-bottom: 50px;
+   margin-left: -8%;
+  }
+
+
+body{
+    
+    justify-content: center;
+}
+div{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0%;
+    gap: 10%;
+    margin-left: 5%;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .btn-section1{
+    background-color: #B48482;
+  width: 250px;
+  height: 60px;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: Century;
+  font-weight: bold;
+  font-size: 24px;
+    color: #FFF;
+   
+    margin-bottom: 25px;
+    align-self: center;
+    margin-top: -10%;
+
+  }
+  .btn:hover{
+    color: rgba(236, 214, 196, 0.53); 
+    transition-duration: 0.5s;
+  }
+
+  .btn{
+    font-family: Century;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #B48482;
+    border: none;
+    margin-left: 5%;
+    margin-top: 12px
+  }
+
+
